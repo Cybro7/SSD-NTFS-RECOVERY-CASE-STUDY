@@ -67,5 +67,3 @@ Therefore:
 2. NTFS boot sector consistency was verified.
 3. MFT-based recovery was attempted.
 4. Raw carving was used only as a last resort.
-
-This preserves maximum evidentiary and structural integrity.
