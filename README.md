@@ -146,7 +146,21 @@ Metadata recovery was prioritized over file carving.
 - Forensic-safe workflow design
 - Risk-controlled recovery execution
 
+
+## Environment Setup
+
+All recovery operations were performed using Kali Linux in Live Boot mode via a bootable USB drive.
+
+The system was not installed on the internal disk. Running from a live environment ensured:
+
+- No writes were made to the affected 2TB disk
+- The original operating system did not auto-mount or modify the filesystem
+- Recovery tools operated in a controlled, isolated environment
+- The integrity of the source media was preserved
+
+This approach minimized contamination risk and maintained forensic safety throughout the recovery process.
 ---
+
 
 ## Conclusion
 
